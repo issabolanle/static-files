@@ -1,0 +1,216 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "{% static './solo.css'%}">
+    <script src="https://kit.fontawesome.com/0125a8d11e.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>  
+    <title>solo project</title>
+
+ <script>
+
+$(document).ready(function(){
+  $('#show-menu').click(function(){
+    $('#nav').show();
+ });
+
+ 
+  $('#hide-menu').click(function(){
+    $('#nav').hide();
+ })
+
+
+})
+</script>
+     
+</head>
+    <body>
+    <div class="container-header">
+            <div class="header">
+                <div class="mylogo">
+                
+              <img src="{% static './images/logo4.png'%}"  alt="" width="150px" height="70px">
+                <label for="">
+                <select name="name" id="explore">
+                    <option value="">Explore</option>
+                </select>
+             </label>
+          </div>
+        
+           <div class="show-bar">
+                <i class="fa-solid fa-bars" id="show-menu"></i>
+            </div>
+            
+            <ul id="nav">
+           <div class="hide-bar">
+                <i class="fa-regular fa-circle-xmark" id="hide-menu"></i>
+             </div>
+             <li>Find your New career</li>
+             <li>For Enterprises</li>
+             <li>For Universities</li>
+             <li><a href="#">Log In</a></li>
+             <button class="btn"><li>Join For Free</li></button>
+        </ul>
+     </div>
+     </div>
+    <div class="container-body1">
+        <div class="body-flex1">
+            <div class="learn">
+                <h1>Learn without Limit</h1>
+                <p>Start,stwitch or advance your career with more than 5,400
+                    courses,<br>professional Certificates,and degrees from
+                    world class universities<br> an companies</p>
+        
+                 <button class="btn2"><a href="">Join for free</a></button>
+                 <button class="bttn"><a href="">Try Courses for business</a></button>
+            </div>
+                   <div class="photo">
+                     <img src="{% static './images/hompage.png'%}" alt="" width="350px" height="350px">
+                   </div> 
+        </div>
+     </div>
+    <section class="section2">
+       <div class="container-body2">
+         <h1>Why Skyline ict works</h1>
+         <div class="body-flex2">
+            <div class="body-col">
+               <img src="{% static './images/personalized_learning_icon.png'%}" alt="" width="100" height="100">
+                <h3>Personalised learning</h3>
+                <p>Student practice at their own pace,first<br>
+                    filling gaps in their understaning <br>and from accelerating
+                    their learning.
+                </p>
+            </div>
+            <div class="body-col">
+                <img src="{% static './images/trusted_content_icon.png'%}" alt="" width="100" height="100">
+                <h3>Trusted content</h3>
+                <p>Created by expert,skyline ict Library of<br> Trusted
+                    practice and lesson covers math,<br>science and more
+                    Always free for learners<br> and teachers.
+                </p>
+        </div>
+
+        <div class="body-col">
+            <img src="{% static './images/empower_teachers_icon.png' %}" alt="" width="100" height="100">
+            <h3>Tools to Empower teachers</h3>
+            <p>With skyline learning,teachers 
+                identify<br> gaps in their Students understaning,tailor<br>
+                instruction andd meet the needs of every<br> Student.
+            </p>
+        </div>
+     </div>
+  </div>
+  </section>
+         <!-- end of container-body2 -->
+
+      <!-- Begining of container-bg -->
+  <div class="container-bg">
+      <h1>Master valuable programming<br>skills</h1>
+        <div class="btn4">
+           <button class="get">GET STARTED</button>
+  </div>
+</div>
+       <!-- end of container-bg -->
+
+       <!-- container-body three -->
+<section class="section3">
+  <div class="container-body3">
+    <div class="body-flex3">
+        <div class="learn-col">
+          <p>LEARNERS AND STUDENTS</p>
+            <h1><span id="you">you</span> can learn <br>anything</h1>
+             <p id="p1">Build a deep understaning in math,science and<br> more</p>
+              <button class="btn5">Learner start here</button>
+           </div>
+          <img src="{% static './images/px.png'%}" alt="" width="350px" height="300px">
+  </div>
+</div>
+</section>
+<!-- here is container boy four -->
+     <section class="section4">
+        <div class="container-body4">
+            <div class="body-flex4">
+                <div class="column">
+                    <img src="{% static './images/img1.png' %}" alt="" width="300" height="200">
+                   </div> 
+                      
+                   <div class="plan">
+                       <h3>THE PLAN</h3>
+                       <p>We prioritize objectives,remain compositive an optimized
+                        financial goal,this enables us to differenciate our unique self from the 
+                        competition,<br>measure progress an offer the best chance at success.</p>
+                       <button class="btn6"><a href=""><i class="fa-regular fa-square"></i>OUR PLAN</a></button>
+                      </div>
+                
+                 <div class="column">
+                     <img src="{% static './images/img2.png' %}" alt="" width="250"  height="250">
+                  </div>
+                    
+                  <div class="innovate">
+                     <h3>INNOVATE</h3>
+                     <p>As a legal service provider,we are client-centric with a future- 
+                      oriented an profit- orientelaw business model not undermining our desire to aid access
+                      to justice and inclusion. </p>
+                     <button class="btn7"><a href=""><i class="fa-regular fa-square"></i>READ MORE</a></button>
+                </div>
+             </div>
+          </div>
+    </section>
+    <!-- end of container-body4 -->
+    <!-- begining of container-body5 -->
+
+    
+    <div class="container-body5">
+      <div class="body-flex5">
+        <div class="image">
+          <img src="{% static './images/1.png' %}" width="300" height="200">
+        </div>
+          
+        <div class="vision"> 
+                <h3>Our vision is very <br>
+                   To Equip Nigerians.<br> <u style="text-decoration: underline rgba(105, 196, 196, 0.89)">Real result.</u> </h3>
+                <p>We're a non profit with the mission to provider
+                    free world class education to anyone anywhere</p>
+                
+             <button class="btna"><li>learners</li></button> 
+             <button class="btnb"><li>Student</li></button> 
+             <button class="btnc"><li>Login</li></button> 
+           </div>
+        </div>
+      </div>
+
+
+      <!-- footer section -->
+    <div class="container-foot">
+       <div class="body-foot">
+            <div class="foot-bag">
+              <h3>Porthacourt office</h3>
+              <p>No 9 Aguma ogunbali Port<br>harcourt</p>
+              <p>No 11 Ede street ogbunbali Port<br>harcourt</p>
+              <p>whatapps or call<br> +234810152492 </p>  
+          </div>
+      <div class="foot-bag">
+          <h3>About us</h3>
+          <p>Skyline ict consult lt is a highly<br> professional instruction
+            services provider<br> with vision of putting business<br> organisation
+            an co-operate <br>organisation into worldwide<br> web, we provides quality services
+            for<br> our client....
+          </p>
+      </div>
+      <div class="foot-bag">
+             <h3>United Arab Emirate</h3>
+             <p>Al Taawan Near sharjah palace<br>hotel </p>
+           </div>
+      <div class="foot-bag">
+            <h3>UNITED STATED</h3>
+             <p>st petersburg florida,USA</p>
+             <p>whatapps or call +18059286480</p>  
+      </div>
+  </div>
+</div>
+
+</body>
+</html>
